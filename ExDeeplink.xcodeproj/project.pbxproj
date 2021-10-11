@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E005FE6327130FCB0014DC6A /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = E005FE6227130FCB0014DC6A /* FirebaseDynamicLinks */; };
+		E005FE6527130FCB0014DC6A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = E005FE6427130FCB0014DC6A /* FirebaseMessaging */; };
+		E0685B49271412A300A371DE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0685B48271412A300A371DE /* ViewController2.swift */; };
+		E0685B4B271412A600A371DE /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0685B4A271412A600A371DE /* ViewController3.swift */; };
 		E09FC254271089EF0087E6C2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E09FC253271089EF0087E6C2 /* GoogleService-Info.plist */; };
 		E0A50F68270DC613006B8A3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A50F67270DC613006B8A3E /* AppDelegate.swift */; };
 		E0A50F6A270DC613006B8A3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A50F69270DC613006B8A3E /* SceneDelegate.swift */; };
@@ -14,12 +18,12 @@
 		E0A50F6F270DC613006B8A3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A50F6D270DC613006B8A3E /* Main.storyboard */; };
 		E0A50F71270DC614006B8A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0A50F70270DC614006B8A3E /* Assets.xcassets */; };
 		E0A50F74270DC614006B8A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0A50F72270DC614006B8A3E /* LaunchScreen.storyboard */; };
-		E0A50F7D270DC67E006B8A3E /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E0A50F7C270DC67E006B8A3E /* RxSwift */; };
-		E0C75B8C27106BE000204FEA /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = E0C75B8B27106BE000204FEA /* FirebaseMessaging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E030EA49270DF4C1002B212F /* ExDeeplink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExDeeplink.entitlements; sourceTree = "<group>"; };
+		E0685B48271412A300A371DE /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		E0685B4A271412A600A371DE /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		E09FC253271089EF0087E6C2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E0A50F64270DC613006B8A3E /* ExDeeplink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExDeeplink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A50F67270DC613006B8A3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,8 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0C75B8C27106BE000204FEA /* FirebaseMessaging in Frameworks */,
-				E0A50F7D270DC67E006B8A3E /* RxSwift in Frameworks */,
+				E005FE6527130FCB0014DC6A /* FirebaseMessaging in Frameworks */,
+				E005FE6327130FCB0014DC6A /* FirebaseDynamicLinks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +72,8 @@
 				E0A50F67270DC613006B8A3E /* AppDelegate.swift */,
 				E0A50F69270DC613006B8A3E /* SceneDelegate.swift */,
 				E0A50F6B270DC613006B8A3E /* ViewController.swift */,
+				E0685B48271412A300A371DE /* ViewController2.swift */,
+				E0685B4A271412A600A371DE /* ViewController3.swift */,
 				E0A50F6D270DC613006B8A3E /* Main.storyboard */,
 				E0A50F70270DC614006B8A3E /* Assets.xcassets */,
 				E0A50F72270DC614006B8A3E /* LaunchScreen.storyboard */,
@@ -93,8 +99,8 @@
 			);
 			name = ExDeeplink;
 			packageProductDependencies = (
-				E0A50F7C270DC67E006B8A3E /* RxSwift */,
-				E0C75B8B27106BE000204FEA /* FirebaseMessaging */,
+				E005FE6227130FCB0014DC6A /* FirebaseDynamicLinks */,
+				E005FE6427130FCB0014DC6A /* FirebaseMessaging */,
 			);
 			productName = ExDeeplink;
 			productReference = E0A50F64270DC613006B8A3E /* ExDeeplink.app */;
@@ -125,8 +131,7 @@
 			);
 			mainGroup = E0A50F5B270DC613006B8A3E;
 			packageReferences = (
-				E0A50F7B270DC67E006B8A3E /* XCRemoteSwiftPackageReference "RxSwift" */,
-				E0C75B8A27106BE000204FEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				E005FE6127130FCB0014DC6A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = E0A50F65270DC613006B8A3E /* Products */;
 			projectDirPath = "";
@@ -156,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0685B4B271412A600A371DE /* ViewController3.swift in Sources */,
 				E0A50F6C270DC613006B8A3E /* ViewController.swift in Sources */,
+				E0685B49271412A300A371DE /* ViewController2.swift in Sources */,
 				E0A50F68270DC613006B8A3E /* AppDelegate.swift in Sources */,
 				E0A50F6A270DC613006B8A3E /* SceneDelegate.swift in Sources */,
 			);
@@ -382,15 +389,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E0A50F7B270DC67E006B8A3E /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
-		E0C75B8A27106BE000204FEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		E005FE6127130FCB0014DC6A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
@@ -401,14 +400,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E0A50F7C270DC67E006B8A3E /* RxSwift */ = {
+		E005FE6227130FCB0014DC6A /* FirebaseDynamicLinks */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E0A50F7B270DC67E006B8A3E /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
+			package = E005FE6127130FCB0014DC6A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
 		};
-		E0C75B8B27106BE000204FEA /* FirebaseMessaging */ = {
+		E005FE6427130FCB0014DC6A /* FirebaseMessaging */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E0C75B8A27106BE000204FEA /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = E005FE6127130FCB0014DC6A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseMessaging;
 		};
 /* End XCSwiftPackageProductDependency section */
